@@ -23,8 +23,8 @@ This project is intended for educational, research, and security awareness purpo
 
 1. Clone the repo
 
-git clone https://github.com/YourUsername/YourRepoName.git
-cd YourRepoName
+git clone https://github.com/cyzlogic/FBGM-multi-tools.git
+cd FBGM-multi-tools
 
 
 
