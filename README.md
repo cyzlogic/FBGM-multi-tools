@@ -33,3 +33,4 @@ cd FBGM-multi-tools
 pip install -r requirements.txt
 
 
+python FBGM-multi-tools.py
