@@ -15,7 +15,7 @@ console = Console()
 
 # header
 def print_header():
-    """Prints the new, even more fucking edgy header."""
+    """Prints | header."""
     
     logo = """
       ________  _______    ______   __       __     
@@ -36,7 +36,7 @@ def print_header():
 
 # --- OSINt functions
 def search_local_breach_file(filepath, term):
-    """Searches a local breach file. You know what this does by now."""
+    """Search for breach."""
     if not os.path.exists(filepath):
         console.print(f"\n[bold red]ERROR:[/bold red] The file '{filepath}' doesn't fucking exist. Are you stupid?")
         return
@@ -59,23 +59,23 @@ def search_local_breach_file(filepath, term):
             console.print(f"\n[bold green]Nothing found for '{term}' in this file. Lucky bastard.[/bold green]")
 
     except Exception as e:
-        console.print(f"\n[bold red]Some shit went wrong reading the file:[/bold red] {e}")
+        console.print(f"\n[bold red]Something went wrong reading the file:[/bold red] {e}")
 
 # --- lwk discord funcs
 def webhook_spammer():
-    """Floods a Discord webhook with messages. For educational purposes, my ass."""
-    console.print(Panel("[bold red]Webhook Annihilator[/bold red]", subtitle="[dim]Time to make someone's channel unusable.[/dim]"))
+    """Floods a Discord webhook with messages. For educational purposes, (ikyk)."""
+    console.print(Panel("[bold red]Webhook Annihilator[/bold red]", subtitle="[dim]Time to make someone's channel a spammania.[/dim]"))
     webhook_url = Prompt.ask("[cyan]Paste the victim's Webhook URL[/cyan]")
     message = Prompt.ask("[cyan]What shitty message do you want to spam?[/cyan]")
     try:
         amount = int(Prompt.ask("[cyan]How many times should I send it?[/cyan]"))
     except ValueError:
-        console.print("[bold red]That's not a fucking number. Try again.[/bold red]")
+        console.print("[bold red]That's not a  number. Try again.[/bold red]")
         return
 
     payload = {'content': message}
     
-    console.print(f"\n[yellow]Alright, starting the fucking raid. Sending '{message}' {amount} times...[/yellow]")
+    console.print(f"\n[yellow]Alright, starting the  raid. Sending '{message}' {amount} times...[/yellow]")
     
     for _ in track(range(amount), description="[bold red]DEPLOYING SPAM...[/bold red]"):
         try:
@@ -85,15 +85,15 @@ def webhook_spammer():
                 time.sleep(1) 
             time.sleep(0.1)
         except requests.exceptions.RequestException as e:
-            console.print(f"\n[bold red]ERROR:[/bold red] The webhook URL is fucked or you're not connected to the internet, dumbass. ({e})")
+            console.print(f"\n[bold red]ERROR:[/bold red] The webhook URL is fucked or you're not connected to the internet. ({e})")
             return
             
-    console.print(f"\n[bold green]Raid complete. {amount} messages sent. Hope you fucked their server up.[/bold green]")
+    console.print(f"\n[bold green]Raid complete. {amount} messages sent. Hope you made  their server unusable up.[/bold green]")
 
 
 # --- USERNAME tools
 def generate_usernames():
-    """Generates 'rare' usernames that might bypass some gay filters."""
+    """Generator."""
     console.print(Panel("[bold cyan]Username Snatcher[/bold cyan]", subtitle="[dim]Find a name that isn't already taken by some 12-year-old.[/dim]"))
     
     rare_users = [
