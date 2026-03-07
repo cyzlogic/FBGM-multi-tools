@@ -5,9 +5,9 @@ A multifunctional toolkit currently in development that combines several useful 
 
 Features
 
-🔗 Discord Webhook Control – Send, manage, and test webhook messages easily.
+🔗 Discord Webhook Control – Spam channels, manage, and test webhook messages easily.
 
-🎲 Username Generator – Generate large batches of unique usernames for testing or account creation.
+🎲 Username Generator – Generate large batches of unique usernames for testing or account creation, such as 3letter users, 4letters, or just rare users.
 
 🔎 OSINT Lookup (WIP) – Search public breach and exposure sources to identify leaked data.
 
